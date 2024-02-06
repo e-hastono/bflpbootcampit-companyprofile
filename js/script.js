@@ -1,3 +1,5 @@
+let curDate;
+
 let todoList = [];
 
 const setToLocalStorage = () => {
@@ -28,7 +30,7 @@ const getTodoStatus = (isComplete, todoDate, todoTime) => {
   let todoStatus = '<span class="badge bg-success">Completed<span>'
 
   if (!isComplete) {
-    if (new Date() <= new Date(`${todoDate} ${todoTime}`)) {
+    if (curDate <= new Date(`${todoDate} ${todoTime}`)) {
       todoStatus = '<span class="badge bg-secondary">On Progress</span>'
     } else {
       todoStatus = '<span class="badge bg-danger">Overdue</span>'
@@ -155,6 +157,8 @@ const getTodoStatus = (isComplete, todoDate, todoTime) => {
         prevEl: ".swiper-arrow-prev",
       },
     });
+
+    curDate = new Date();
 
     const todoForm = document.getElementById("todoForm");
 
