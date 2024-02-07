@@ -6,7 +6,7 @@ RepairDevice adalah sebuah startup yang menawarkan kemudahan dalam perbaikan dev
 
 ## Demo Live
 
-Repository ini telah dideploy dan dapat diakses di (https://velvety-gaufre-f8897b.netlify.app/)[https://velvety-gaufre-f8897b.netlify.app/]
+Repository ini telah dideploy dan dapat diakses di [https://velvety-gaufre-f8897b.netlify.app/](https://velvety-gaufre-f8897b.netlify.app/)
 
 ## Kebutuhan
 
