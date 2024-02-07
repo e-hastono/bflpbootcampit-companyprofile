@@ -65,6 +65,7 @@ Untuk mendapatkan salinan repository ini, ikuti langkah berikut:
 ## Struktur Folder
 
 Struktur repository ini adalah sebagai berikut:
+```bash
 bflpbootcampit-companyprofile/
 ├── css/ # Tambahan Stylesheet CSS
 ├── js/ # Berkas JavaScript
@@ -72,3 +73,4 @@ bflpbootcampit-companyprofile/
 ├── index.html # Berkas HTML utama
 ├── README.md # Dokumentasi Proyek
 └── style.css # Stylesheet utama CSS
+```
